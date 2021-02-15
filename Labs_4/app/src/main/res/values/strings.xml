@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Labs_4</string>
+    <string name="clear_list_Btn_mainActivity">Очистить список</string>
+    <string name="currentSong_tv_mainActivity">Нет играющих песен</string>
+</resources>
