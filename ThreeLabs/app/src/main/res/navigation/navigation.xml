@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    tools:ignore="UnusedNavigation"
+    app:startDestination="@id/textEditFragment">
+
+    <fragment
+        android:id="@+id/imagesFragment"
+        android:name="com.lumi.threelabs.ImagesFragment"
+        android:label="fragment_images"
+        tools:layout="@layout/fragment_images" />
+    <fragment
+        android:id="@+id/multimediaFragment"
+        android:name="com.lumi.threelabs.MultimediaFragment"
+        android:label="fragment_multimedia"
+        tools:layout="@layout/fragment_multimedia" />
+    <fragment
+        android:id="@+id/textEditFragment"
+        android:name="com.lumi.threelabs.TextEditFragment"
+        android:label="fragment_text_edit"
+        tools:layout="@layout/fragment_text_edit" />
+</navigation>
