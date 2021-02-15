@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SecondLabs</string>
+    <string name="titleMainActivity">Cat list</string>
+    <string name="backStack">Back</string>
+</resources>
